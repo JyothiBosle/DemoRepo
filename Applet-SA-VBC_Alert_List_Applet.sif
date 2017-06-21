@@ -14,7 +14,7 @@
 	   LOCKED="N"
 	   NAME="Server Admin"
 	   UI_FREEZE="N"
-	   UPDATED="06/21/2017 16:18:20"
+	   UPDATED="06/21/2017 16:20:57"
 	   UPDATED_BY="DEV1"
 	   CREATED="11/01/1997 14:40:49"
 	   CREATED_BY="SADMIN"
@@ -22,7 +22,6 @@
 		<APPLET
 		   BUSINESS_COMPONENT="SA-VBC Alert Definitions"
 		   CLASS="CSSFrameList"
-		   COMMENTS="test"
 		   DISABLE_DATALOSS_WARNING="N"
 		   HTML_NUMBER_OF_ROWS="7"
 		   HEIGHT="4"
@@ -38,7 +37,7 @@
 		   TYPE="Standard"
 		   UPGRADE_BEHAVIOR="Admin"
 		   WIDTH="2"
-		   UPDATED="06/21/2017 16:18:30"
+		   UPDATED="06/21/2017 16:21:09"
 		   UPDATED_BY="DEV1"
 		   CREATED="10/08/2003 05:05:11"
 		   CREATED_BY="SADMIN">
