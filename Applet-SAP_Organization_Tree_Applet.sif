@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<REPOSITORY
+   COMMENTS="[ashish] :imported on 8june 17 for 1709dev"
+   NAME="Siebel Repository"
+   UPDATED="06/08/2017 21:39:38"
+   UPDATED_BY="SADMIN"
+   CREATED="06/08/2017 20:48:40"
+   CREATED_BY="SADMIN"
+   FIO_PLACEHOLDER_FIO="TRUE">
+	<PROJECT
+	   ALLOW_OBJECT_LOCKING="Y"
+	   INACTIVE="N"
+	   LOCKED="N"
+	   NAME="SAP Account 4x"
+	   UI_FREEZE="N"
+	   UPDATED="06/21/2017 17:01:15"
+	   UPDATED_BY="DEV1"
+	   CREATED="09/27/2000 10:05:29"
+	   CREATED_BY="SADMIN"
+	   FIO_PLACEHOLDER_FIO="TRUE">
+		<APPLET
+		   BUSINESS_COMPONENT="Organization"
+		   CLASS="CSSFrameTree"
+		   COMMENTS="vghgh"
+		   DISABLE_DATALOSS_WARNING="N"
+		   HEIGHT="4"
+		   HELP_IDENTIFIER="ID_APPLET_INTERNAL_DIVISION_LIST"
+		   INACTIVE="N"
+		   NAME="SAP Organization Tree Applet"
+		   NO_DELETE="Y"
+		   NO_INSERT="N"
+		   NO_MERGE="N"
+		   NO_UPDATE="N"
+		   OBJECT_LOCKED="N"
+		   SCRIPTED="N"
+		   TITLE_-_STRING_REFERENCE="SBL_ORGANIZATIONS-1004224542-12S"
+		   TYPE="Standard"
+		   UPGRADE_BEHAVIOR="Preserve"
+		   WIDTH="2"
+		   UPDATED="06/21/2017 17:01:29"
+		   UPDATED_BY="DEV1"
+		   CREATED="06/22/2001 01:12:30"
+		   CREATED_BY="SADMIN">
+			<APPLET_USER_PROP
+			   INACTIVE="N"
+			   NAME="MultiCurrency"
+			   VALUE="Y"
+			   UPDATED="06/22/2001 01:12:34"
+			   UPDATED_BY="SADMIN"
+			   CREATED="06/22/2001 01:12:34"
+			   CREATED_BY="SADMIN">
+			</APPLET_USER_PROP>
+			<APPLET_WEB_TEMPLATE
+			   INACTIVE="N"
+			   NAME="Base"
+			   TYPE="Base"
+			   WEB_TEMPLATE="Applet Tree"
+			   UPDATED="11/24/2003 00:24:37"
+			   UPDATED_BY="SADMIN"
+			   CREATED="06/22/2001 01:12:31"
+			   CREATED_BY="SADMIN">
+				<APPLET_WEB_TEMPLATE_ITEM
+				   CONTROL="City"
+				   INACTIVE="N"
+				   ITEM_IDENTIFIER="504"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="City"
+				   TYPE="List Item"
+				   UPDATED="11/24/2003 00:24:36"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/22/2001 01:12:31"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   CONTROL="Country"
+				   INACTIVE="N"
+				   ITEM_IDENTIFIER="506"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="Country"
+				   TYPE="List Item"
+				   UPDATED="11/24/2003 00:24:36"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/22/2001 01:12:31"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   CONTROL="Currency Code"
+				   INACTIVE="N"
+				   ITEM_IDENTIFIER="502"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="Currency Code"
+				   TYPE="List Item"
+				   UPDATED="06/05/2003 20:52:50"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/22/2001 01:12:31"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   COMMENTS="Modified by 7.7 - Items not pointing to valid control"
+				   CONTROL="EditRecord"
+				   INACTIVE="Y"
+				   ITEM_IDENTIFIER="132"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="EditRecord- Marked for Deletion"
+				   TYPE="Control"
+				   UPDATED="06/05/2003 20:52:50"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/05/2003 12:49:35"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   COMMENTS="Modified by 7.7 - Items not pointing to valid control"
+				   CONTROL="GotoNextSet"
+				   INACTIVE="Y"
+				   ITEM_IDENTIFIER="123"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="GotoNextSet- Marked for Deletion"
+				   TYPE="Control"
+				   UPDATED="06/05/2003 20:52:50"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/05/2003 12:49:36"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   COMMENTS="Modified by 7.7 - Items not pointing to valid control"
+				   CONTROL="GotoPreviousSet"
+				   INACTIVE="Y"
+				   ITEM_IDENTIFIER="122"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="GotoPreviousSet- Marked for Deletion"
+				   TYPE="Control"
+				   UPDATED="06/05/2003 20:52:50"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/05/2003 12:49:36"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   CONTROL="Main Fax Number"
+				   INACTIVE="N"
+				   ITEM_IDENTIFIER="508"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="Main Fax Number"
+				   TYPE="List Item"
+				   UPDATED="06/05/2003 20:52:51"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/22/2001 01:12:32"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   CONTROL="Main Phone Number"
+				   INACTIVE="N"
+				   ITEM_IDENTIFIER="507"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="Main Phone Number"
+				   TYPE="List Item"
+				   UPDATED="06/05/2003 20:52:51"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/22/2001 01:12:32"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   CONTROL="Name"
+				   INACTIVE="N"
+				   ITEM_IDENTIFIER="501"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="Name"
+				   TYPE="List Item"
+				   UPDATED="06/05/2003 20:52:51"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/22/2001 01:12:32"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   COMMENTS="Modified by 7.7 - Items not pointing to valid control"
+				   CONTROL="NewQuery"
+				   INACTIVE="Y"
+				   ITEM_IDENTIFIER="106"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="NewQuery- Marked for Deletion"
+				   TYPE="Control"
+				   UPDATED="06/05/2003 20:52:51"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/05/2003 12:49:36"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   COMMENTS="Modified by 7.7 - Items not pointing to valid control"
+				   CONTROL="NewRecord"
+				   INACTIVE="Y"
+				   ITEM_IDENTIFIER="131"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="NewRecord- Marked for Deletion"
+				   TYPE="Control"
+				   UPDATED="06/05/2003 20:52:51"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/05/2003 12:49:36"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   COMMENTS="Modified by 7.7 - Items not pointing to valid control"
+				   CONTROL="PositionOnRow"
+				   INACTIVE="Y"
+				   ITEM_IDENTIFIER="144"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="PositionOnRow- Marked for Deletion"
+				   TYPE="Control"
+				   UPDATED="06/05/2003 20:52:51"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/05/2003 12:49:36"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   CONTROL="State"
+				   INACTIVE="N"
+				   ITEM_IDENTIFIER="505"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="State"
+				   TYPE="List Item"
+				   UPDATED="11/24/2003 00:24:37"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/22/2001 01:12:33"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+				<APPLET_WEB_TEMPLATE_ITEM
+				   CONTROL="Street Address"
+				   INACTIVE="N"
+				   ITEM_IDENTIFIER="503"
+				   MARKUP_LANGUAGE="HTML"
+				   NAME="Street Address"
+				   TYPE="List Item"
+				   UPDATED="11/24/2003 00:24:37"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/22/2001 01:12:33"
+				   CREATED_BY="SADMIN">
+				</APPLET_WEB_TEMPLATE_ITEM>
+			</APPLET_WEB_TEMPLATE>
+			<CONTROL
+			   AUTOMATIC_HORIZONTAL_SCROLL="N"
+			   AUTOMATIC_VERTICAL_SCROLL="N"
+			   DEFAULT_BUTTON="N"
+			   GROUP="N"
+			   HTML_DEFAULT_CONTROL="N"
+			   HTML_ONLY="N"
+			   HTML_ROW_SENSITIVE="Y"
+			   HEIGHT="20"
+			   INACTIVE="N"
+			   LEFT="2"
+			   LEFT_TEXT="N"
+			   MULTI_LINE="N"
+			   NAME="AppletTitle"
+			   OWNER_DRAW="N"
+			   POPUP_EDIT="N"
+			   PROMPT="N"
+			   READ_ONLY="N"
+			   RUNTIME="N"
+			   SEQUENCE="2"
+			   SHOW_POPUP="N"
+			   SORT="N"
+			   TAB_STOP="N"
+			   TEXT_ALIGNMENT="Left"
+			   TEXT_ALIGNMENT-LABEL="Right"
+			   TOP="2"
+			   TYPE="Label"
+			   VERTICAL_SCROLL="N"
+			   VISIBLE="Y"
+			   WANT_RETURN="N"
+			   WIDTH="136"
+			   UPDATED="03/20/2010 05:34:06"
+			   UPDATED_BY="SADMIN"
+			   CREATED="06/22/2001 01:12:30"
+			   CREATED_BY="SADMIN">
+				<CONTROL_LOCALE
+				   APPLICATION_CODE="STD"
+				   INACTIVE="N"
+				   LANGUAGE_CODE="ENU"
+				   NAME="ENU-STD"
+				   TRANSLATE="Y"
+				   VISIBLE="Y"
+				   UPDATED="06/22/2001 01:12:30"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/22/2001 01:12:30"
+				   CREATED_BY="SADMIN">
+				</CONTROL_LOCALE>
+			</CONTROL>
+			<CONTROL
+			   AUTOMATIC_HORIZONTAL_SCROLL="N"
+			   AUTOMATIC_VERTICAL_SCROLL="N"
+			   CAPTION_-_STRING_REFERENCE="SBL_TREE-1004224625-1IK"
+			   DEFAULT_BUTTON="N"
+			   GROUP="N"
+			   HTML_DEFAULT_CONTROL="N"
+			   HTML_ONLY="N"
+			   HTML_ROW_SENSITIVE="Y"
+			   HEIGHT="590"
+			   INACTIVE="N"
+			   LEFT="6"
+			   LEFT_TEXT="N"
+			   MULTI_LINE="N"
+			   NAME="Tree"
+			   OWNER_DRAW="N"
+			   POPUP_EDIT="N"
+			   PROMPT="N"
+			   READ_ONLY="N"
+			   RUNTIME="N"
+			   SEQUENCE="1"
+			   SHOW_POPUP="N"
+			   SORT="N"
+			   TAB_STOP="N"
+			   TEXT_ALIGNMENT="Left"
+			   TEXT_ALIGNMENT-LABEL="Right"
+			   TOP="28"
+			   TYPE="TreeControl"
+			   VERTICAL_SCROLL="N"
+			   VISIBLE="Y"
+			   WANT_RETURN="N"
+			   WIDTH="994"
+			   UPDATED="03/20/2010 05:34:06"
+			   UPDATED_BY="SADMIN"
+			   CREATED="06/22/2001 01:12:30"
+			   CREATED_BY="SADMIN">
+				<CONTROL_LOCALE
+				   APPLICATION_CODE="STD"
+				   INACTIVE="N"
+				   LANGUAGE_CODE="ENU"
+				   NAME="ENU-STD"
+				   TRANSLATE="Y"
+				   VISIBLE="Y"
+				   UPDATED="10/10/2003 09:15:05"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/22/2001 01:12:30"
+				   CREATED_BY="SADMIN">
+				</CONTROL_LOCALE>
+			</CONTROL>
+			<DRILLDOWN_OBJECT
+			   HYPERLINK_FIELD="Name"
+			   INACTIVE="N"
+			   NAME="Organization Skills"
+			   VIEW="Organization Skill View"
+			   UPDATED="06/22/2001 22:28:22"
+			   UPDATED_BY="SADMIN"
+			   CREATED="06/22/2001 01:12:33"
+			   CREATED_BY="SADMIN">
+				<DRILLDOWN_OBJECT_LOCALE
+				   APPLICATION_CODE="STD"
+				   INACTIVE="N"
+				   LANGUAGE_CODE="ENU"
+				   NAME="ENU-STD"
+				   TRANSLATE="Y"
+				   UPDATED="06/22/2001 01:12:33"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/22/2001 01:12:33"
+				   CREATED_BY="SADMIN">
+				</DRILLDOWN_OBJECT_LOCALE>
+			</DRILLDOWN_OBJECT>
+			<TREE
+			   HTML_HIERARCHY_BITMAP="SWETree Bitmaps"
+			   INACTIVE="N"
+			   NAME="Tree"
+			   UPDATED="11/23/2003 22:49:29"
+			   UPDATED_BY="SADMIN"
+			   CREATED="06/22/2001 01:12:33"
+			   CREATED_BY="SADMIN">
+				<TREE_NODE
+				   APPLET="SAP 4x Organization List Applet"
+				   BITMAP_INDEX="5"
+				   BUSINESS_COMPONENT="Organization"
+				   DISPLAY_NAME_-_STRING_REFERENCE="SBL_ORGANIZATIONS-1004224542-12S"
+				   INACTIVE="N"
+				   LABEL_FIELD="Name"
+				   MAX_CHILD_ITEMS="50"
+				   NAME="Organization Node"
+				   POSITION="1"
+				   RECURSIVE="Y"
+				   RECURSIVE_LINK="Organization/Organization"
+				   SELECTED_BITMAP_INDEX="5"
+				   UPDATED="10/24/2003 01:23:18"
+				   UPDATED_BY="SADMIN"
+				   CREATED="06/22/2001 01:12:33"
+				   CREATED_BY="SADMIN">
+				</TREE_NODE>
+			</TREE>
+		</APPLET>
+	</PROJECT>
+</REPOSITORY>
+
+
+
